@@ -1,0 +1,10 @@
+flask
+torch
+facenet-pytorch
+numpy
+Pillow
+scikit-learn
+joblib
+gunicorn
+python-dotenv
+matplotlib
