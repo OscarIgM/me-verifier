@@ -74,5 +74,5 @@ def verify():
     return jsonify(response), 200
 
 if __name__ == "__main__":
-    port = int(os.getenv('PORT', 5000))
+    port = int(os.getenv('PORT', 8002))
     app.run(host='0.0.0.0', port=port, debug=True)
